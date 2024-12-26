@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#hero-banner {
+    background-image: url('casino-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    padding-bottom: 0px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #ff4f61;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff4f61;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.cta-button {
+    background-color: #ff4f61;
+    color: white;
+    padding: 10px 20px;
+    /* margin: 10px; */
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.join-now {
+    width: 400px;
+    height: 120px;
+    border-radius: 0.7em;
+    border: 5px solid transparent; 
+    transition: border-color 0.3s ease; 
+    animation: pulse 2s infinite ease-in-out; 
+}
+
+@keyframes pulse {
+    0% {
+        border-color: rgba(255, 255, 255, 0); 
+    }
+    50% {
+        border-color: rgba(255, 255, 255, 1); 
+    }
+    100% {
+        border-color: rgba(255, 255, 255, 0); 
+    }
+}
+
+.cta-button:hover {
+    background-color: #d8404f;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.feature-item {
+    width: 200px;
+    text-align: center;
+}
+
+#how-it-works .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.step {
+    width: 30%;
+}
+
+#testimonials .testimonial {
+    margin: 20px auto;
+    font-style: italic;
+    color: #555;
+}
+
+#cta {
+    background-color: #ff4f61;
+    color: white;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-contact {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
