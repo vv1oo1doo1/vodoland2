@@ -370,8 +370,7 @@ body {
         position: absolute;
         left: 20px;      
         top: 374px;
-        /* width: 300px; */
-        width: 90%;
+        width: 300px;
         height: 42px;
         background-color: #FF5100;
         border: 1px solid #FF5100;
@@ -388,7 +387,7 @@ body {
         position: absolute;
         left: 20px;      
         top: 436px;
-        width: 90%;
+        width: 300px;
         height: 40px;
         background-color: #FFAE00;
         border: 1px solid #FFAE00;
