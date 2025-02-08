@@ -9,6 +9,13 @@ body {
     background-color: #0e0e13f7;
 }
 
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('gilroy-heavy.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
 @keyframes pulse-border {
     0% {
       border-width: 1px; 
@@ -146,6 +153,32 @@ body {
     top: 17%;
     left: 6%;
     width: 85%;
+}
+
+.main-main1{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 50%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 900;
+    font-size: 94px;
+    color: #FFFFFF;
+    line-height: 94px;
+    letter-spacing: 1.2px;
+}
+
+.main-second1{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    width: 40%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFAE00;
+    line-height: 1.2;
+    letter-spacing: 1px;
 }
 
 /* --------- block 1 --------- */
@@ -563,6 +596,32 @@ body {
         height: auto;
     }
 
+    .main-main1{
+        position: absolute;
+        top: 120px;
+        left: 6%;
+        width: 55%;
+        font-family: 'Gilroy-Heavy';
+        font-weight: 900;
+        font-size: 400%;
+        color: #FFFFFF;
+        line-height: 100%;
+        letter-spacing: 1.2px;
+    }
+    
+    .main-second1{
+        position: absolute;
+        top: 270px;
+        left: 6%;
+        width: 55%;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFAE00;
+        line-height: 1.0;
+        letter-spacing: 1px;
+    }
+
     .claim-your-bonus-1{
         position: absolute;
         left: 60%;
@@ -708,6 +767,32 @@ body {
         left: 20px;
         width: auto;
         height: auto;
+    }
+
+    .main-main1{
+        position: absolute;
+        top: 200px;
+        left: 10%;
+        width: 75%;
+        font-family: 'Gilroy-Heavy';
+        font-weight: 700;
+        font-size: 48px;
+        color: #FFFFFF;
+        line-height: 55px;
+        letter-spacing: 1.1px;
+    }
+    
+    .main-second1{
+        position: absolute;
+        top: 315px;
+        left: 10%;
+        width: 75%;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFAE00;
+        line-height: 23px;
+        letter-spacing: 1px;
     }
 
     .claim-your-bonus-1{
