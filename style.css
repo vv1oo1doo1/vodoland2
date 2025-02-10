@@ -51,7 +51,7 @@ body {
 .main-page{
     position: relative; 
     width: 100%; 
-    height: 860px;
+    height: 820px;
     display: inline-block;
     background-color: #1F2029;
 }
@@ -93,18 +93,11 @@ body {
     animation: pulse-border 1.5s infinite;
 }
 
-.text-main{
-    position: absolute;
-    top: 152px;
-    left: 97px;
-    width: 43%;
-}
-
 .claim-your-bonus-2{
     position: absolute;
     left: 100px;      
-    top: 60%;
-    width: 355px;
+    top: 510px;
+    width: 26%;
     height: 60px;
     background-color: #FF5100;
     border: 1px solid #FF5100;
@@ -120,8 +113,8 @@ body {
 .claim-your-bonus-3{
     position: absolute;
     left: 100px;      
-    top: 70%;
-    width: 355px;
+    top: 600px;
+    width: 26%;
     height: 60px;
     background-color: #FFAE00;
     border: 1px solid #FFAE00;
@@ -211,7 +204,7 @@ body {
     position: relative;
     width: 100%; 
     height: 590px;
-    background-color: #1F2029;
+    background-color: #17171D;
     /* background-color: blue; */
 }
 
@@ -294,17 +287,6 @@ body {
         linear-gradient(45deg, #421B6A, #9D385A) border-box;
 }
 
-/* .btn2 p{
-    position: absolute;
-    top: 15%;
-    left: 20px;
-    width: 80%;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 200%;
-    line-height: 36px;
-    color: #FFFFFF;
-} */
 
 .btn3{
     position: absolute;
@@ -320,18 +302,6 @@ body {
         linear-gradient(45deg, #421B6A, #9D385A) border-box;
 }
 
-/* .btn3 p{
-    position: absolute;
-    top: 15%;
-    left: 20px;
-    width: 80%;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 200%;
-    line-height: 36px;
-    color: #FFFFFF;
-} */
-
 .btn4{
     position: absolute;
     left: 0%;
@@ -345,18 +315,6 @@ body {
         linear-gradient( #0D0D0DE5, #0D0D0DE5) padding-box,
         linear-gradient(45deg, #421B6A, #9D385A) border-box;
 }
-
-/* .btn4 p{
-    position: absolute;
-    top: 15%;
-    left: 20px;
-    width: 80%;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 200%;
-    line-height: 36px;
-    color: #FFFFFF;
-} */
 
 .btn5{
     position: absolute;
@@ -372,18 +330,6 @@ body {
         linear-gradient(45deg, #421B6A, #9D385A) border-box;
 }
 
-/* .btn5 p{
-    position: absolute;
-    top: 15%;
-    left: 20px;
-    width: 90%;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 200%;
-    line-height: 36px;
-    color: #FFFFFF;
-} */
-
 .btn6{
     position: absolute;
     left: 68%;
@@ -397,19 +343,6 @@ body {
         linear-gradient( #0D0D0DE5, #0D0D0DE5) padding-box,
         linear-gradient(45deg, #421B6A, #9D385A) border-box;
 }
-
-/* .btn6 p{
-    position: absolute;
-    top: 15%;
-    left: 20px;
-    width: 80%;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 200%;
-    line-height: 36px;
-    color: #FFFFFF;
-} */
-
 
 .get-reward{
     position: absolute;
@@ -428,110 +361,123 @@ body {
     animation: pulse-border 1.5s infinite;
 }
 
-/* block 3 */
+/* ----- block 3 (web) -----*/
 
 .block3-page{
     position: relative;
     width: 100%; 
-    height: 992px;
+    height: 860px;
     background-color: #17171D;
-    /* background-color: blue; */
 }
 
-.syndyk-img{
+.cards-img{
     position: absolute;
-    left: 7%;
-    width: 60%;
-    height: 638px;
+    left: 12%;
+    top: 0%;
+    width: 40%;
+    height: 463px;
 }
 
-.text-block3{
+.cards-block-main{
     position: absolute;
-    top: 575px;
-    left: 15%;
-    width: 35%;
+    top: 509px;
+    left: 17%;
+    width: 20%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 700;
+    font-size: 82px;
+    color: #FFAE00;
+    line-height: 72px;
+    letter-spacing: 1.2px;
 }
 
-.wonderful-frame p{
+.cards-block-second{
     position: absolute;
-    top: 730px;
-    left: 15%;
+    top: 675px;
+    left: 17%;
     width: 25%;
-    font-family: 'Montserrat';
-    font-weight: 500;
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    line-height: 25px;
-    letter-spacing: 1.5px;
+    line-height: 23px;
+    letter-spacing: 1px;
 }
 
-.claim-your-bonus-4{
+.join-btn{
     position: absolute;
-    left: 15%;
-    top: 805px;
-    width: 22.5%;
+    left: 17%;
+    top: 765px;
+    width: 20%;
     height: 60px;
     background-color: #FF5100;
     border: 1px solid #FF5100;
     border-radius: 42.73px;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-weight: 800;
     font-size: 120%;
-    color: #FFFFFF;
+    color: white;
     cursor: pointer;
     animation: pulse-border 1.5s infinite;
 }
 
-.present-img{
+.car-img{
     position: absolute;
-    left: 40%;
-    top: 320px;
-    width: 60%;
-    height: 704px;
+    left: 45%;
+    top: 368px;
+    width: 45%;
+    height: 490px;
 }
 
-.text-block4{
+
+.car-block-main{
     position: absolute;
-    top: 120px;
-    left: 55%;
-    width: 35%;
+    top: 50px;
+    left: 60%;
+    width: 20%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 700;
+    font-size: 82px;
+    color: #FFAE00;
+    line-height: 72px;
+    letter-spacing: 1.2px;
 }
 
-.promotion-frame p{
+.car-block-second{
     position: absolute;
-    top: 270px;
-    left: 65%;
-    width: 25%;
-    font-family: 'Montserrat';
-    font-weight: 500;
+    top: 210px;
+    left: 60%;
+    width: 20%;
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    line-height: 25px;
-    letter-spacing: 1.5px;
+    line-height: 23px;
+    letter-spacing: 1px;
 }
 
-.claim-your-bonus-5{
+.get-car-bonus{
     position: absolute;
-    left: 68%;
-    top: 340px;
-    width: 22.5%;
+    left: 60%;
+    top: 290px;
+    width: 20%;
     height: 60px;
     background-color: #FF5100;
     border: 1px solid #FF5100;
     border-radius: 42.73px;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-weight: 800;
     font-size: 120%;
-    color: #FFFFFF;
+    color: white;
     cursor: pointer;
     animation: pulse-border 1.5s infinite;
 }
 
-/* block 4 */
+/* ------------- block 4 (web) ------------- */
 
 .block4-page{
     position: relative;
-    height: 200px;
+    height: 140px;
     width: 100%;
     background-color: #17171D;
     text-align: center;
@@ -541,31 +487,18 @@ body {
 }
 
 .block4-page p{
-    font-family: 'Montserrat';
+    width: 42%;
+    font-family: 'Roboto';
     font-weight: 400;
-    font-size: 250%;
-    line-height: 58px;
-    letter-spacing: 1.5px;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 1px;
     color: #FFFFFF;
-}
-
-.block2-img{
-    position: relative;
-    top: 0px;
-    width: 100%; 
-    height: 100%;
-}
-
-.block3-img{
-    position: relative;
-    top: -20px;
-    width: 100%; 
-    height: 100%;
 }
 
   /* ----- portrait tablet & horiz mob ----- */
 
-  @media (min-width: 768px) and (max-width: 979px) {
+  @media (min-width: 650px) and (max-width: 979px) {
     .main-page{
         position: relative; 
         width: 100%;
@@ -586,14 +519,6 @@ body {
         left: 24px;
         width: 166px;
         height: 44px;
-    }
-
-    .text-main{
-        position: absolute;
-        top: 20%;
-        left: 20px;
-        width: 50%;
-        height: auto;
     }
 
     .main-main1{
@@ -673,15 +598,16 @@ body {
         animation: pulse-border-2 1.5s infinite;
     }
 
-    .check-box{
+    .check-box-label{
         position: absolute;
         top: 104px;
-        left: 74%;
-        width: 22%;
-        height: 43px;
+        left: 76%;
+        width: 20%;
+        height: 40px;
         background-color: #0A0A0B;
         border: 1px solid #FFFFFF;
         border-radius: 8px;
+        cursor: pointer;
     }
 
     .btn-frame p{
@@ -691,7 +617,7 @@ body {
         width: 80%;
         font-family: 'Montserrat';
         font-weight: 700;
-        font-size: 180%;
+        font-size: 140%;
         line-height: 36px;
         color: #FFFFFF;
     }
@@ -727,12 +653,121 @@ body {
             linear-gradient(45deg, #421B6A, #9D385A) border-box;
     }
     
-    .text-box{
-        position: absolute;
-        top: 18%;
-        left: 9%;
-        width: 85%;
-    }
+/* ----- block 3 (tablet) -----*/
+
+.block3-page{
+    position: relative;
+    width: 100%; 
+    height: 700px;
+    background-color: #1F2029;
+}
+
+.back-img{
+    height: 700px;
+}
+
+.cards-img{
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    width: 50%;
+    height: 340px;
+}
+
+.cards-block-main{
+    position: absolute;
+    top: 369px;
+    left: 15%;
+    width: 24%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 700;
+    font-size: 42px;
+    color: #FFAE00;
+    line-height: 52px;
+    letter-spacing: 1px;
+}
+
+.cards-block-second{
+    position: absolute;
+    top: 500px;
+    left: 15%;
+    width: 29%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.join-btn{
+    position: absolute;
+    left: 15%;
+    top: 615px;
+    width: 26%;
+    height: 50px;
+    background-color: #FF5100;
+    border: 1px solid #FF5100;
+    border-radius: 42.73px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    animation: pulse-border 1.5s infinite;
+}
+
+.car-img{
+    position: absolute;
+    left: 48%;
+    top: 360px;
+    width: 45%;
+    height: 340px;
+}
+
+
+.car-block-main{
+    position: absolute;
+    top: 40px;
+    left: 64%;
+    width: 24%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 700;
+    font-size: 42px;
+    color: #FFAE00;
+    line-height: 52px;
+    letter-spacing: 1px;
+}
+
+.car-block-second{
+    position: absolute;
+    top: 160px;
+    left: 64%;
+    width: 27%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.get-car-bonus{
+    position: absolute;
+    top: 260px;
+    left: 64%;
+    width: 26%;
+    height: 50px;
+    background-color: #FF5100;
+    border: 1px solid #FF5100;
+    border-radius: 42.73px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 100%;
+    color: white;
+    cursor: pointer;
+    animation: pulse-border 1.5s infinite;
+}
   }
 
 
@@ -742,7 +777,7 @@ body {
     .main-page{
         position: relative; 
         width: 100%;
-        height: 739px;
+        height: 650px;
         display: inline-block;
     }
 
@@ -802,9 +837,9 @@ body {
     .claim-your-bonus-2{
         position: absolute;
         left: 10%;      
-        top: 59%;
+        top: 67%;
         width: 80%;
-        height: 6%;
+        height: 8%;
         background-color: #FF5100;
         border: 1px solid #FF5100;
         border-radius: 42.73px;
@@ -819,9 +854,9 @@ body {
     .claim-your-bonus-3{
         position: absolute;
         left: 10%;      
-        top: 68%;
+        top: 77%;
         width: 80%;
-        height: 6%;
+        height: 8%;
         background-color: #FFAE00;
         border: 1px solid #FFAE00;
         border-radius: 42.73px;
@@ -907,12 +942,12 @@ body {
 
 .btn1 p{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 10px;
-    width: 80%;
+    width: 85%;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 115%;
+    font-size: 100%;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -923,10 +958,10 @@ body {
 
 .check-box-label{
     position: absolute;
-    top: 57%;
-    left: 76%;
-    width: 20%;
-    height: 35%;
+    top: 59%;
+    left: 72%;
+    width: 23%;
+    height: 34%;
     background-color: #0A0A0B;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
@@ -962,12 +997,12 @@ body {
 
 .btn2 p{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 10px;
-    width: 80%;
+    width: 85%;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 115%;
+    font-size: 100%;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -988,12 +1023,12 @@ body {
 
 .btn3 p{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 10px;
-    width: 80%;
+    width: 85%;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 115%;
+    font-size: 100%;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -1014,12 +1049,12 @@ body {
 
 .btn4 p{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 10px;
-    width: 80%;
+    width: 85%;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 115%;
+    font-size: 100%;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -1040,12 +1075,12 @@ body {
 
 .btn5 p{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 10px;
-    width: 80%;
+    width: 85%;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 115%;
+    font-size: 100%;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -1066,12 +1101,12 @@ body {
 
 .btn6 p{
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 10px;
-    width: 80%;
+    width: 85%;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 115%;
+    font-size: 100%;
     line-height: 30px;
     color: #FFFFFF;
 }
@@ -1094,6 +1129,140 @@ body {
     animation: pulse-border 1.5s infinite;
 }
 
-  }
+
+/* block 3 */
+
+.block3-page{
+    position: relative;
+    width: 100%; 
+    height: 1040px;
+    background-color: #17171D;
+}
+
+
+.cards-img{
+    position: absolute;
+    left: 10%;
+    top: 220px;
+    width: 80%;
+    height: 317px;
+}
+
+.cards-block-main{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    width: 85%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 800;
+    font-size: 34px;
+    color: #FFAE00;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.cards-block-second{
+    position: absolute;
+    top: 105px;
+    left: 10%;
+    width: 80%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.join-btn{
+    position: absolute;
+    left: 20%;
+    top: 165px;
+    width: 60%;
+    height: 42px;
+    border-radius: 29.21px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 90%;
+    color: white;
+    cursor: pointer;
+    animation: pulse-border 1.5s infinite;
+}
+
+.car-img{
+    position: absolute;
+    left: 10%;
+    top: 750px;
+    width: 80%;
+    height: 280px;
+}
+
+.car-block-main{
+    position: absolute;
+    top: 570px;
+    left: 5%;
+    width: 90%;
+    font-family: 'Gilroy-Heavy';
+    font-weight: 800;
+    font-size: 34px;
+    color: #FFAE00;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.car-block-second{
+    position: absolute;
+    top: 640px;
+    left: 10%;
+    width: 80%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.get-car-bonus{
+    position: absolute;
+    left: 20%;
+    top: 690px;
+    width: 60%;
+    height: 42px;
+    border-radius: 29.21px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 90%;
+    color: white;
+    cursor: pointer;
+    animation: pulse-border 1.5s infinite;
+}
+
+.block4-page{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #17171D;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.block4-page p{
+    width: 80%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+}
 
  

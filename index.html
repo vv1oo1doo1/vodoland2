@@ -7,18 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Voodoo132</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script src="script.js"></script> -->
 </head>
 
 <body>
-    <!-- <div class="wrapper" onclick="window.location.href='https:example.com';"> -->
-    <!-- <div class="wrapper" onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';"> -->
     <div class="wrapper">
     <div class="main-page" onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">
         <picture>
             <source 
-               media="(max-width: 768px)"   
-               srcset="docs/assets/bg-main-mob.png">
+                media="(max-width: 650px)"
+                srcset="docs/assets/bg-main-mob.png">
             <img src="docs/assets/bg-main-web.png" class="main-img">
          </picture>
 
@@ -27,26 +24,22 @@
             <button class="claim-your-bonus-1">CLAIM YOUR BONUS</button>
          </div>
 
-         <div class="text-block-1">
-            <picture>
-                <source 
-                   media="(max-width: 768px)"
-                   srcset="docs/assets/text-main-mob.png">
-                <img src="docs/assets/text-main-web.png" class="text-main">
-             </picture>
+         <div class="text-block-11">
+            <p class="main-main1">YOUR PERKS AWAIT</p>
+            <p class="main-second1"><b>5000 AUD</b> + <b>500</b> FREE SPINS IN PACKAGE</p>
          </div>
 
          <button class="claim-your-bonus-2">CLAIM YOUR BONUS</button>
-         <button class="claim-your-bonus-3">GET CHRISTMAS BONUS</button>
+         <button class="claim-your-bonus-3">VALENTINE'S DAY BONUS 💖</button>
 
-         <div class="exlusive-bonus-field">
+         <!-- <div class="exlusive-bonus-field">
             <picture>
                 <source 
                     media="(max-width: 768px)"
                     srcset="docs/assets/text-box-mob.png">
                 <img src="docs/assets/text-box-web.png" class="text-box">
                 </picture>
-         </div>
+         </div> -->
     </div>
     <div class="block1-page" onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">
         <p>At Voodoo1 Casino, every spin, bet, and win matters—and so do you. That’s why we’ve crafted exciting perks to enhance your gaming adventure</p>
@@ -65,55 +58,55 @@
         <button class="get-reward" onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">GET REWARD</button>
     </div>
 
-    <div onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">
+    <div class="block3-page" onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">
         <picture>
             <source 
-               media="(max-width: 900px)"
-               srcset="docs/assets/block_2_1.png">
-            <img src="docs/assets/block 2.png" class="block2-img">
-         </picture>
-    </div>
-    <div onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">
-        <picture>
-            <source 
-               media="(max-width: 900px)"
-               srcset="docs/assets/block_3_1.png">
-            <img src="docs/assets/block 3.png" class="block3-img">
-         </picture>
-    </div>
-    <!-- <div class="block3-page">
-        <picture>
-            <source 
-                media="(max-width: 768px)"
-                srcset="docs/assets/text-box-mob.png">
-            <img src="docs/assets/bg1-block3-web.png" class="syndyk-img">
+                media="(max-width: 650px)"
+                srcset="docs/assets/bg1-block3-mob.png">
+            <img src="docs/assets/bg1-block3-web.png" class="cards-img">
         </picture>
 
-        <div class="wonderful-frame">
-            <img src="docs/assets/text-block3-web.png" class="text-block3">
-            <p>Celebrate every status level-up with exclusive rewards tailored for you</p>
-            <button class="claim-your-bonus-4">CLAIM YOUR BONUS</button>
+        <div class="cards-block">
+            <p class="cards-block-main">Wonderful Gifts</p>
+            <p class="cards-block-second">Celebrate every status level-up with exclusive rewards tailored for you</p>
+            <button class="join-btn">CLAIM YOUR BONUS</button>
         </div>
 
-        <div class="promotion-frame">
-            <img src="docs/assets/text2-block3-web.png" class="text-block4">
-            <p>Keep the excitement going with fresh offers every week</p>
-            <button class="claim-your-bonus-5">CLAIM YOUR REWARDS</button>
+        <div class="car-block">
+            <p class="car-block-main">Weekly Promotions</p>
+            <p class="car-block-second">Keep the excitement going with fresh offers every week</p>
+            <button class="get-car-bonus">CLAIM YOUR REWARDS</button>
         </div>
 
         <picture>
             <source 
-                media="(max-width: 768px)"
-                srcset="docs/assets/text-box-mob.png">
-            <img src="docs/assets/bg2-block3-web.png" class="present-img">
+                media="(max-width: 650px)"
+                srcset="docs/assets/bg2-block3-mob.png">
+            <img src="docs/assets/bg2-block3-web.png" class="car-img">
         </picture>
     </div>
 
-    <div class="block4-page">
+    <div class="block4-page" onclick="window.location.href='https://a.gambburj.com/click?pid=170685&offer_id=12570&l=1733478521';">
         <p>Here’s to endless excitement and big wins!</p>
-    </div> -->
+    </div>
 
     </div>
+
+    <script>
+        async function getCountry() {
+            console.log("!!!!! start !!!!!");
+            try {
+                const response = await fetch('https://cors-anywhere.herokuapp.com/https://freeipapi.com/api/json');
+                const data = await response.json();
+                const country = data.countryName;
+                console.log("!!!!!", country, "!!!!!");
+            } catch (error) {
+                console.error('Error fetching geolocation data:', error);
+            }
+        }
+
+        getCountry();
+    </script>
 
 </body>
 
